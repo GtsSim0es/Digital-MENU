@@ -6,7 +6,8 @@ To add products access: /cadastro
 Login: Admin
 Senha: 12345
 
-It is necessary the use of mySQL with a DB named cardapio
+It is necessary the configuration of mySQL 
 
+Image of the project
+![Project Screen](https://user-images.githubusercontent.com/100707860/177570391-3be70698-adde-41f8-a449-4845de49dd23.png)
 
-![Captura de Tela (3)](https://user-images.githubusercontent.com/100707860/177570021-a2845b31-ac6d-4df3-ba5a-62aaf74e3000.png)
