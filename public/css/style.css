@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: #E0D8B0;
+    scroll-behavior: smooth; 
+}
+
+.menu{
+    border-radius: 8px;
+    width: 10vh;
+    height: 3vh;
+    background-color: #584026;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+}
+
+.sair{
+    float: right;
+    margin-right: 5vh;
+    margin-top: -8vh;
+}
+
+body{
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center  ;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #CE9461;
+    text-shadow: 1px 1px 2px black;
+    
+
+}
+
+p
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    background-color: #302315;
+    height: 14vh;
+}
+
+footer{
+    margin-top: 10vh;
+    background-color: #302315;
+    color: #E0D8B0;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.fixed{
+    position: fixed;
+}
+
+h3{
+    margin: 5vh;
+}
+
+h2{
+    margin: 3vh;
+    font-size: 45px;
+    color: #E0D8B0;
+}
+
+h5{
+    margin: 3vh;
+    font-size: 20px;
+    color: #E0D8B0;
+}
+
+h1{
+    font-size: 55px;
+    color: #E0D8B0;
+}
+
+
+h1:hover{
+    
+    transform: scale(1.1);
+}
+
+.content{
+    box-shadow: 0 0 1em black;
+    border-radius: 10px;
+    width: 46vh;
+    height: 67vh;
+    padding: 10px;
+    color: #E0D8B0;
+    transition: 0.2s;
+    background-color: #302315;
+}
+
+.content:hover{ 
+    transform: scale(1.1);
+}
+
+div {
+    display: inline-block;
+    margin: 2vh;
+}
+
+/*CADASTRO*/
+
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+input{
+    margin: 4vh;
+    box-shadow: 0 0 1em black;
+}
+
+input[type="file"]{
+    display: none; 
+}
+
+.texto 
+{
+    border-radius: 5px;
+    background-color: #584026;
+    box-shadow: 0 0 1em black;
+    text-align: center;
+}
+
+.nome
+{
+    box-shadow: 0 0 1em black;
+    background-color: #584026;
+    border-radius: 5px;
+    margin-left: 1vh;
+    width: 55vh;
+    height: 5vh;
+}
+
+.enviar {
+    box-shadow: 0 0 1em black;
+    background-color: #866138;
+    border-radius: 5px;
+    width: 20vh;
+    height: 5vh;
+}
+
+.enviar:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,42 @@
+
+    <a class="sair" href="/sair">SAIR</a>
+
+    <h2>Adicionar Item</h2>
+
+    <form class="form" action="/add" method="post" enctype="multipart/form-data">
+        <input type="file" name="imagem" accept="image/png, image/jpeg" id="imagem" onchange="previewImagem()"><br><br>
+		<label class="lbImg" for="imagem"><img style="width: 28.735632183908045vh; height: 28.735632183908045vh; color: #584026;"><br><br></label>
+
+        <h5>Nome:</h5> 
+        <input name="nome" class="nome" type="text" maxlength="12 ">
+        <h5>Ingredientes:</h5>
+        <textarea name="texto" class="texto" cols="50" rows="15"></textarea>
+        <input type="submit" class="enviar" name="" id="">
+    </form>
+
+    <h2>Lista de Itens</h2>
+
+    <ul>
+
+{{#each cardapio}}
+        <a href="">
+            <div class="content">
+                <li><img src="/images/{{imagem}}"></li>
+                <li>
+                    <h3>{{nome}}</h3>
+                </li>
+                <br>
+                <li>
+                    <h4>Ingredientes:</h4> <br>
+                    {{texto}}
+                </li>
+                <div>
+                <li><a href="/deletar/{{id}}"><button>Remover</button></a></li></div>
+            </div>
+            
+        </a>
+        {{/each}}
+    </ul>
+
+
+    
